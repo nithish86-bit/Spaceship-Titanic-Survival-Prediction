@@ -60,24 +60,34 @@ Files Used:
 
 ### Confusion Matrix
 
-```
+```text
 [[649 212]
  [176 702]]
 ```
 
-| Actual \ Predicted | Predicted: No Heart Risk | Predicted: Heart Risk |
-|--------------------|-------------------------:|----------------------:|
-| **No Heart Risk**  | 649 (TN)                 | 212 (FP)              |
-| **Heart Risk**     | 176 (FN)                 | 702 (TP)              |
+| Actual \ Predicted | Predicted: False | Predicted: True |
+|--------------------|-----------------:|----------------:|
+| **False**          | 649 (True Negative) | 212 (False Positive) |
+| **True**           | 176 (False Negative) | 702 (True Positive) |
 
 ### Classification Report
 
-| Class | Precision | Recall | F1-Score |
-|------|----------:|--------:|---------:|
-| No Heart Risk | 0.79 | 0.75 | 0.77 |
-| Heart Risk | 0.77 | 0.80 | 0.78 |
+| Class | Precision | Recall | F1-Score | Support |
+|------|----------:|--------:|---------:|--------:|
+| False | 0.79 | 0.75 | 0.77 | 861 |
+| True | 0.77 | 0.80 | 0.78 | 878 |
 
 **Overall Accuracy:** **77.69%**
+
+**Macro Average**
+- Precision: **0.78**
+- Recall: **0.78**
+- F1-Score: **0.78**
+
+**Weighted Average**
+- Precision: **0.78**
+- Recall: **0.78**
+- F1-Score: **0.78**
 
 ---
 
