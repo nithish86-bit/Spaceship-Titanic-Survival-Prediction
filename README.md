@@ -10,9 +10,8 @@ The project demonstrates an end-to-end Machine Learning workflow, including data
 
 ## 📊 Dataset
 
-**Dataset Source:**
-
-https://www.kaggle.com/competitions/spaceship-titanic
+**Dataset Source:**  
+[Spaceship Titanic - Kaggle Competition](https://www.kaggle.com/competitions/spaceship-titanic)
 
 ### Files Used
 
@@ -192,5 +191,5 @@ Spaceship-Titanic-Survival-Prediction/
 
 **Nithish Ramesh**
 
-- GitHub: https://github.com/YOUR_USERNAME
-- LinkedIn: https://www.linkedin.com/in/YOUR_LINKEDIN
+- **GitHub:** [nithish86-bit](https://github.com/nithish86-bit)
+- **LinkedIn:** [Nithish Ramesh](https://www.linkedin.com/in/nithish-rbn)
