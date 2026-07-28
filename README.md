@@ -50,12 +50,34 @@ Files Used:
 
 ---
 
-## 📊 Evaluation Metrics
+## 📈 Model Performance
 
-- Accuracy
-- ROC-AUC Score
-- Confusion Matrix
-- Classification Report
+### Accuracy
+- **Accuracy:** **77.69%**
+
+### ROC-AUC Score
+- **ROC-AUC Score:** **0.8620**
+
+### Confusion Matrix
+
+```
+[[649 212]
+ [176 702]]
+```
+
+| Actual \ Predicted | Predicted: No Heart Risk | Predicted: Heart Risk |
+|--------------------|-------------------------:|----------------------:|
+| **No Heart Risk**  | 649 (TN)                 | 212 (FP)              |
+| **Heart Risk**     | 176 (FN)                 | 702 (TP)              |
+
+### Classification Report
+
+| Class | Precision | Recall | F1-Score |
+|------|----------:|--------:|---------:|
+| No Heart Risk | 0.79 | 0.75 | 0.77 |
+| Heart Risk | 0.77 | 0.80 | 0.78 |
+
+**Overall Accuracy:** **77.69%**
 
 ---
 
