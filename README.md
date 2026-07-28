@@ -84,4 +84,4 @@ Spaceship-Titanic-Survival-Prediction/
 
 ## 👨‍💻 Author
 
-Nithish R
+Nithish Ramesh
