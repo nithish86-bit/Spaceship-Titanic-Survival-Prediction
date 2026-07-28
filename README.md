@@ -2,21 +2,21 @@
 
 ## 📌 Project Overview
 
-This project predicts whether passengers were transported to an alternate dimension using the Spaceship Titanic dataset from Kaggle.
+This project predicts whether passengers were transported to an alternate dimension using the **Spaceship Titanic** dataset from Kaggle.
 
-The project demonstrates a complete Machine Learning workflow including data preprocessing, exploratory data analysis, feature engineering, model building, evaluation, and prediction.
+The project demonstrates a complete Machine Learning workflow, including data preprocessing, feature engineering, model building, evaluation, and prediction using **Logistic Regression**.
 
 ---
 
 ## 📊 Dataset
 
-Dataset Source:
+**Dataset Source:**  
 https://www.kaggle.com/competitions/spaceship-titanic
 
-Files Used:
-- train.csv
-- test.csv
-- submission.csv
+**Files Used:**
+- `train.csv`
+- `test.csv`
+- `submission.csv`
 
 ---
 
@@ -50,25 +50,25 @@ Files Used:
 
 ---
 
-## 📈 Model Performance
+## 📊 Model Performance
 
 ### Accuracy
-- **Accuracy:** **77.69%**
+**Accuracy:** **77.69%**
 
 ### ROC-AUC Score
-- **ROC-AUC Score:** **0.8620**
+**ROC-AUC Score:** **0.8620**
 
 ### Confusion Matrix
 
-```text
+```
 [[649 212]
  [176 702]]
 ```
 
-| Actual \ Predicted | Predicted: False | Predicted: True |
-|--------------------|-----------------:|----------------:|
-| **False**          | 649 (True Negative) | 212 (False Positive) |
-| **True**           | 176 (False Negative) | 702 (True Positive) |
+| Actual | Predicted: False | Predicted: True |
+|---------|-----------------:|----------------:|
+| **False** | 649 (True Negative) | 212 (False Positive) |
+| **True** | 176 (False Negative) | 702 (True Positive) |
 
 ### Classification Report
 
@@ -79,15 +79,21 @@ Files Used:
 
 **Overall Accuracy:** **77.69%**
 
-**Macro Average**
-- Precision: **0.78**
-- Recall: **0.78**
-- F1-Score: **0.78**
+### Macro Average
 
-**Weighted Average**
-- Precision: **0.78**
-- Recall: **0.78**
-- F1-Score: **0.78**
+| Metric | Score |
+|--------|------:|
+| Precision | 0.78 |
+| Recall | 0.78 |
+| F1-Score | 0.78 |
+
+### Weighted Average
+
+| Metric | Score |
+|--------|------:|
+| Precision | 0.78 |
+| Recall | 0.78 |
+| F1-Score | 0.78 |
 
 ---
 
@@ -107,13 +113,15 @@ Spaceship-Titanic-Survival-Prediction/
 
 ## 🎯 Future Improvements
 
-- Random Forest
-- XGBoost
+- Random Forest Classifier
+- XGBoost Classifier
 - Hyperparameter Tuning
 - Feature Selection
+- Cross Validation
+- Model Deployment using Streamlit or Flask
 
 ---
 
 ## 👨‍💻 Author
 
-Nithish Ramesh
+**Nithish Ramesh**
