@@ -96,6 +96,53 @@ https://www.kaggle.com/competitions/spaceship-titanic
 | F1-Score | 0.78 |
 
 ---
+# 📷 Project Screenshots
+
+## 1. Dataset Preview (`train.head()`)
+
+Displays the first five rows of the Spaceship Titanic dataset.
+
+![Dataset Preview](images/dataset_preview.png)
+
+---
+
+## 2. Dataset Information (`train.info()`)
+
+Displays column names, data types, and missing values.
+
+![Dataset Information](images/dataset_info.png)
+
+---
+
+## 3. Model Accuracy (`accuracy_score`)
+
+Shows the validation accuracy.
+
+![Accuracy](images/accuracy.png)
+
+---
+
+## 4. Confusion Matrix (`ConfusionMatrixDisplay`)
+
+Shows model predictions versus actual values.
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+---
+
+## 5. Classification Report (`classification_report`)
+
+Shows Precision, Recall, F1-Score, and Support.
+
+![Classification Report](images/classification_report.png)
+
+---
+
+## 6. ROC-AUC Score (`roc_auc_score`)
+
+Shows the ROC-AUC score of the model.
+
+![ROC-AUC Score](images/roc_auc.png)
 
 ## 📂 Repository Structure
 
