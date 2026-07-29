@@ -100,57 +100,41 @@ The project demonstrates an end-to-end Machine Learning workflow, including data
 
 ---
 
-# 📷 Project Screenshots
+## 📷 Project Screenshots
 
-## 1. Dataset Preview (`train.head()`)
+### 1. Dataset Preview (`train.head()`)
 
-Displays the first five rows of the Spaceship Titanic dataset.
-
-![Dataset Preview](images/dataset_preview.png)
+![Dataset Preview](images/train.head().png)
 
 ---
 
-## 2. Dataset Information (`train.info()`)
+### 2. Dataset Information (`train.info()`)
 
-Displays the dataset structure, data types, and missing values.
-
-![Dataset Information](images/dataset_info.png)
+![Dataset Information](images/info().png)
 
 ---
 
-## 3. Model Accuracy (`accuracy_score`)
+### 3. Model Accuracy (`accuracy_score`)
 
-Shows the validation accuracy achieved by the Logistic Regression model.
-
-**Accuracy:** **77.69%**
-
-![Model Accuracy](images/accuracy.png)
+![Model Accuracy](images/accuracy_score.png)
 
 ---
 
-## 4. Confusion Matrix (`ConfusionMatrixDisplay`)
+### 4. Confusion Matrix (`ConfusionMatrixDisplay`)
 
-Visual representation of the model's predictions compared with the actual values.
-
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](images/ConfusionMatrixDisplay.png)
 
 ---
 
-## 5. Classification Report (`classification_report`)
+### 5. Classification Report (`classification_report`)
 
-Displays Precision, Recall, F1-Score, and Support for each class.
-
-![Classification Report](images/classification_report.png)
+![Classification Report](images/classification%20report.png)
 
 ---
 
-## 6. ROC-AUC Score (`roc_auc_score`)
+### 6. ROC-AUC Score (`roc_auc_score`)
 
-Measures the model's ability to distinguish between the two classes.
-
-**ROC-AUC Score:** **0.8620**
-
-![ROC-AUC Score](images/roc_auc.png)
+![ROC-AUC Score](images/roc_auc_score.png)
 
 ---
 
