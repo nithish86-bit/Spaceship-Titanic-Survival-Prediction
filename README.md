@@ -8,16 +8,34 @@ The project demonstrates an end-to-end Machine Learning workflow, including data
 
 ---
 
+## ✨ Features
+
+- End-to-end Machine Learning classification project
+- Data cleaning and preprocessing
+- Missing value treatment
+- Categorical variable encoding
+- Feature engineering
+- Train-Test Split (80% Training, 20% Validation)
+- Logistic Regression model training
+- Model evaluation using Accuracy Score
+- ROC-AUC Score evaluation
+- Confusion Matrix visualization
+- Classification Report generation
+- Prediction on unseen test dataset
+
+---
+
 ## 📊 Dataset
 
-**Dataset Source:**  
-[Spaceship Titanic - Kaggle Competition](https://www.kaggle.com/competitions/spaceship-titanic)
+**Dataset Source:**
+
+https://www.kaggle.com/competitions/spaceship-titanic
 
 ### Files Used
 
 - train.csv
 - test.csv
-- submission.csv
+- sample_submission.csv
 
 ---
 
@@ -40,28 +58,32 @@ The project demonstrates an end-to-end Machine Learning workflow, including data
 
 ## 📈 Workflow
 
-- Data Cleaning
-- Missing Value Treatment
-- Encoding Categorical Variables
-- Feature Engineering
-- Train-Test Split (80% Training, 20% Validation)
-- Logistic Regression Model Training
-- Model Evaluation
-- Prediction on Test Dataset
+1. Data Cleaning
+2. Missing Value Treatment
+3. Encoding Categorical Variables
+4. Feature Engineering
+5. Train-Test Split (80% Training, 20% Validation)
+6. Logistic Regression Model Training
+7. Model Evaluation
+8. Prediction on Test Dataset
 
 ---
 
-## 📊 Model Performance
+# 📊 Model Performance
 
-### Accuracy
+## Accuracy
 
 **Accuracy:** **77.69%**
 
-### ROC-AUC Score
+---
+
+## ROC-AUC Score
 
 **ROC-AUC Score:** **0.8620**
 
-### Confusion Matrix
+---
+
+## Confusion Matrix
 
 ```
 [[649 212]
@@ -69,14 +91,16 @@ The project demonstrates an end-to-end Machine Learning workflow, including data
 ```
 
 | Actual | Predicted: False | Predicted: True |
-|--------|-----------------:|----------------:|
+|---------|-----------------:|----------------:|
 | False | 649 (True Negative) | 212 (False Positive) |
 | True | 176 (False Negative) | 702 (True Positive) |
 
-### Classification Report
+---
+
+## Classification Report
 
 | Class | Precision | Recall | F1-Score | Support |
-|------|----------:|--------:|---------:|--------:|
+|------|----------:|-------:|---------:|--------:|
 | False | 0.79 | 0.75 | 0.77 | 861 |
 | True | 0.77 | 0.80 | 0.78 | 878 |
 
@@ -100,17 +124,17 @@ The project demonstrates an end-to-end Machine Learning workflow, including data
 
 ---
 
-## 📷 Project Screenshots
+# 📷 Project Screenshots
 
-### 1. Dataset Preview (`train.head()`)
+## 1. Dataset Preview (`train.head()`)
 
-Displays the first five rows of the Spaceship Titanic dataset.
+Displays the first five rows of the dataset.
 
 ![Dataset Preview](images/train.head().png)
 
 ---
 
-### 2. Dataset Information (`train.info()`)
+## 2. Dataset Information (`train.info()`)
 
 Displays the dataset structure, data types, and missing values.
 
@@ -118,65 +142,62 @@ Displays the dataset structure, data types, and missing values.
 
 ---
 
-### 3. Model Accuracy (`accuracy_score`)
+## 3. Model Accuracy (`accuracy_score`)
 
-Shows the validation accuracy achieved by the Logistic Regression model.
+Validation Accuracy: **77.69%**
 
-**Accuracy:** 77.69%
-
-![Model Accuracy](images/accuracy_score.png)
+![Accuracy](images/accuracy_score.png)
 
 ---
 
-### 4. Confusion Matrix (`ConfusionMatrixDisplay`)
+## 4. Confusion Matrix (`ConfusionMatrixDisplay`)
 
-Visual representation of the model's predictions compared with the actual values.
+Shows model predictions against actual values.
 
 ![Confusion Matrix](images/ConfusionMatrixDisplay.png)
 
 ---
 
-### 5. Classification Report (`classification_report`)
+## 5. Classification Report (`classification_report`)
 
-Displays Precision, Recall, F1-Score, and Support for each class.
+Displays Precision, Recall, F1-Score, and Support.
 
 ![Classification Report](images/classification%20report.png)
 
 ---
 
-### 6. ROC-AUC Score (`roc_auc_score`)
+## 6. ROC-AUC Score (`roc_auc_score`)
 
-Measures the model's ability to distinguish between the two classes.
-
-**ROC-AUC Score:** 0.8620
+ROC-AUC Score: **0.8620**
 
 ![ROC-AUC Score](images/roc_auc_score.png)
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
-```text
+```
 Spaceship-Titanic-Survival-Prediction/
 │
 ├── images/
-│   ├── dataset_preview.png
-│   ├── dataset_info.png
-│   ├── accuracy.png
-│   ├── confusion_matrix.png
-│   ├── classification_report.png
-│   └── roc_auc.png
+│   ├── train.head().png
+│   ├── info().png
+│   ├── accuracy_score.png
+│   ├── ConfusionMatrixDisplay.png
+│   ├── classification report.png
+│   └── roc_auc_score.png
 │
-├── Spaceship_Titanic.ipynb
+├── space_ship_titanic.ipynb
 ├── train.csv
 ├── test.csv
-├── submission.csv
-└── README.md
+├── sample_submission.csv
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-## 🎯 Future Improvements
+# 🎯 Future Improvements
 
 - Random Forest Classifier
 - XGBoost Classifier
@@ -187,9 +208,10 @@ Spaceship-Titanic-Survival-Prediction/
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Nithish Ramesh**
 
-- **GitHub:** [nithish86-bit](https://github.com/nithish86-bit)
-- **LinkedIn:** [Nithish Ramesh](https://www.linkedin.com/in/nithish-rbn)
+**GitHub:** https://github.com/nithish86-bit
+
+**LinkedIn:** https://www.linkedin.com/in/nithish-rbn
